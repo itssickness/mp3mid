@@ -6,21 +6,160 @@ body {
   justify-content: center;
   background-color: #444;
 }
-.container {
-  width: auto;
-  height: auto;
-  display: flex;
-  align-items: center;
-}
-.lyricDisplay {
-    font-size: 1rem;
+
+.lyric {
+    font-size: 2rem;
     font-weight: bolder;
     line-height: 1.5;
     text-align: center;
     text-transform: uppercase;
     max-width: 300px;
-    margin-top: 40px;
-    color:white;
+    margin-top: 20px;
+}
+
+.lyric-1 {
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.lyric-2 {
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.lyric-3 {
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.lyric-4 {
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.lyric-5 {
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.lyric-6 {
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.lyric-7 {
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.lyric-8 {
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.lyric-9 {
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.player {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+}
+
+.player-1 {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+}
+
+.player-2 {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+}
+
+.player-3 {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+}
+
+.player-4 {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+}
+.player-5 {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+}
+.player-6 {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+}
+.player-7 {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+}
+.player-8 {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+}
+.player-9 {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
 }
 .fa-solid {
   margin: 0.5rem;
