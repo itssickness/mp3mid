@@ -1,0 +1,81 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #444;
+}
+.container {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.lyricDisplay {
+    font-size: 1rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 300px;
+    margin-top: 40px;
+    color:white;
+}
+.fa-solid {
+  margin: 0.5rem;
+  width: 0.5rem;
+}
+.fa-pause {
+  display : none;
+}
+.playrate {
+  font-family: 'Merriweather', serif;
+}
+.btn {
+  border-radius: 30%;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: white;
+  border: none;
+  transition: 0.5s;
+  margin: 0 2px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.play {
+  display: inline-block;
+}
+.pause {
+  display: none;
+}
+.btn:hover > i{
+  color: #ff6b0c;
+  font-weight: 700;
+}
+.btn:hover > span{
+  color: #ff6b0c;
+  font-weight: bold;
+}
+span {
+  transition: 0.3s;
+}
+i {
+  transition: 0.3s;
+}
+.mybtn {
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.mydiv {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 20%;
+  background-color: red;
+  color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
