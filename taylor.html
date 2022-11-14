@@ -8,22 +8,25 @@
     <title>MIDNIGHTS</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/grid/">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </head>
   <body style="background-image: url(https://images.wallpaperscraft.com/image/single/headphones_bw_headset_120277_3840x2400.jpg); background-repeat: no-repeat; background-attachment: fixed;
   background-size: cover;
-"></body>
+">
+
 <div class="container mt-3">
   <div id="accordion">
     <div class="card">
       <div class="card-header" id="headingOne">
-        <h5 class="mb-0">You're on your own, kid</h5>
+        <h5 class="mb-0">Your on you're own, kid</h5>
       </div>
       <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
       	<div class="card-body">
-		<audio controls>
-      	<source src="taylor/0.mp3" type="audio/mpeg">
+		<audio class="player-20" controls>
     	</audio>
+    <div class="lyric-20"></div>
+        <script src="yk.js"></script>
       </div>
     </div>
     
@@ -33,9 +36,10 @@
       </div>
       <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
       	<div class="card-body">
-		<audio controls>
-      	<source src="taylor/1.mp3" type="audio/mpeg">
+		<audio controls class="player-21">
     	</audio>
+        <div class="lyric-21"></div>
+        <script src="sotb.js"></script>
       </div>
     </div>
     
@@ -45,9 +49,10 @@
       </div>
       <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
       	<div class="card-body">
-		<audio controls>
-      	<source src="taylor/2.mp3" type="audio/mpeg">
+		<audio controls class="player-22">
     	</audio>
+            <div class="lyric-22"></div>
+        <script src="mrn.js"></script>
       </div>
     </div>
     
@@ -57,9 +62,10 @@
       </div>
       <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
       	<div class="card-body">
-		<audio controls>
-      	<source src="taylor/3.mp3" type="audio/mpeg">
+		<audio controls class="player-23">
     	</audio>
+            <div class="lyric-23"></div>
+        <script src="lh.js"></script>
       </div>
     </div>
     
@@ -69,11 +75,14 @@
       </div>
       <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
       	<div class="card-body">
-		<audio controls>
-      	<source src="taylor/4.mp3" type="audio/mpeg">
+		<audio controls class="player-24">
     	</audio>
+            <div class="lyric-24"></div>
+        <script src="ah.js"></script>
       </div>
     </div>
     
     </div>
   </div>
+  </body>
+  </html>
